@@ -6,5 +6,7 @@ template_part('header',[
     'class' => 'home-page',
     'page' => 'home'
 ]);
-
+template_part('section-course');
+?>
+<?php
 template_part('footer');
